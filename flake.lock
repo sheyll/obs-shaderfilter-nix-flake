@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1675763311,
+        "narHash": "sha256-bz0Q2H3mxsF1CUfk26Sl9Uzi8/HFjGFD/moZHz1HebU=",
+        "path": "/nix/store/kr2c1l2plzhy7k4skhdl9q2i3r86n3wy-source",
+        "rev": "fab09085df1b60d6a0870c8a89ce26d5a4a708c2",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "obs-shaderfilters": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673109539,
+        "narHash": "sha256-q5S4V7aTXBc0uc+muAlkEpzjFDjoSyzumEKbljqJzL0=",
+        "owner": "exeldro",
+        "repo": "obs-shaderfilter",
+        "rev": "fe622e1bfb27eac2a4fa96259824ab4cc33cc214",
+        "type": "github"
+      },
+      "original": {
+        "owner": "exeldro",
+        "repo": "obs-shaderfilter",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "obs-shaderfilters": "obs-shaderfilters"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
