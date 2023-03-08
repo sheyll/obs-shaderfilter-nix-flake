@@ -13,7 +13,7 @@
         "type": "indirect"
       }
     },
-    "obs-shaderfilters": {
+    "obs-shaderfilter": {
       "flake": false,
       "locked": {
         "lastModified": 1673109539,
@@ -26,13 +26,14 @@
       "original": {
         "owner": "exeldro",
         "repo": "obs-shaderfilter",
+        "rev": "fe622e1bfb27eac2a4fa96259824ab4cc33cc214",
         "type": "github"
       }
     },
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
-        "obs-shaderfilters": "obs-shaderfilters"
+        "obs-shaderfilter": "obs-shaderfilter"
       }
     }
   },
